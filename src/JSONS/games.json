@@ -1,0 +1,12 @@
+[
+        {
+                "name": "Counter-Strike: Global Offensive",
+                "logo": "https://steamcharts.com/assets/steam-images/730.jpg",
+                "link": "/csgo"
+        },
+        {
+                "name": "Rust",
+                "logo": "https://steamcharts.com/assets/steam-images/252490.jpg",
+                "link": "/rust"
+        }
+]

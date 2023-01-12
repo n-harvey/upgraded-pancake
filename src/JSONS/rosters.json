@@ -1,0 +1,48 @@
+[
+        {
+                "game": "Counter-Strike: Global Offensive",
+                "players": [
+                        {
+                                "name": "Cw",
+                                "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/4a8b3a4ecf9207f9f66bc7085ba7a9db637ee8a5.gif",
+                                "role": "AWPer, Entry Fragger",
+                                "steamid": "76561197971977775"
+                        },
+                        {
+                                "name": "WalkINGDeaDD",
+                                "icon": "https://avatars.akamai.steamstatic.com/4cdb826b18103e6db2ba4f38ab57a0de13fb685c_full.jpg",
+                                "role": "Rifler, Bomb Carrier",
+                                "steamid": "76561197971291356"
+                        }
+                ]
+        },
+        {
+                "game": "Rust",
+                "players": [
+                        {
+                                "name": "Cw",
+                                "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/4a8b3a4ecf9207f9f66bc7085ba7a9db637ee8a5.gif",
+                                "role": "Builder, Farmer",
+                                "steamid": "76561197971977775"
+                        },
+                        {
+                                "name": "WeeblesWobble ",
+                                "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/252490/37ba56f90c89e818c48c8dec4b42b1a4cda0d092.gif",
+                                "role": "Builder, Farmer, Fisher, Pilot",
+                                "steamid": "76561197977237950"
+                        },
+                        {
+                                "name": "#Hype",
+                                "icon": "https://avatars.akamai.steamstatic.com/d4e5e934683a17339cc9632e199d6e709333957a_full.jpg",
+                                "role": "Trolling Magnate",
+                                "steamid": "76561197976874606"
+                        },
+                        {
+                                "name": "Ven",
+                                "icon": "https://avatars.akamai.steamstatic.com/699e35dc118e6a5bbd1c308c66a79e519db5f108_full.jpg",
+                                "role": "Farmer, PvP Chad",
+                                "steamid": "76561198045872257"
+                        }
+                ]
+        }
+]

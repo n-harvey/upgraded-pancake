@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./components/navbar.js";
+import Games from "./components/games.js";
+import Main from "./components/main.js";
+import Footer from "./components/footer";
+import Counterstrike from "./components/counterstrike";
+import Rust from "./components/rust";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Container } from "react-bootstrap";
+
+const router = createBrowserRouter([
+        {
+                path: "/",
+                element: <Main />,
+        },
+        {
+                path: "/csgo",
+                element: <Counterstrike />,
+        },
+        {
+                path: "/rust",
+                element: <Rust />,
+        },
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        return (
+                <>
+                        <Navbar />
+                        <Container>
+                                <Games />
+                                <RouterProvider router={router} />
+                                <Footer />
+                        </Container>
+                </>
+        );
 }
 
 export default App;
