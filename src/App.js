@@ -5,6 +5,7 @@ import Main from "./components/main.js";
 import Footer from "./components/footer";
 import Counterstrike from "./components/counterstrike";
 import Rust from "./components/rust";
+import Servers from "./components/servers";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Container } from "react-bootstrap";
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
                 path: "/rust",
                 element: <Rust />,
         },
+        {
+                path: "/servers",
+                element: <Servers />
+        }
 ]);
 
 function App() {
