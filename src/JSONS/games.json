@@ -8,5 +8,17 @@
                 "name": "Rust",
                 "logo": "https://steamcharts.com/assets/steam-images/252490.jpg",
                 "link": "/rust"
+        },
+        {
+                "name": "Valheim",
+                "logo": "https://steamcharts.com/assets/steam-images/892970.jpg"
+        },
+        {
+                "name": "Project Zomboid",
+                "logo": "https://steamcharts.com/assets/steam-images/108600.jpg"
+        },
+        {
+                "name": "Deep Rock Galactic",
+                "logo": "https://steamcharts.com/assets/steam-images/548430.jpg"
         }
 ]

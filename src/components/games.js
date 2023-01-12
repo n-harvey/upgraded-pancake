@@ -8,7 +8,7 @@ const games = () => {
                         <Row className="text-center">
                                 {gameslist.map((game) => (
                                         <Col key={game.name}>
-                                                <div className="game" key={game.name}>
+                                                <div className="game">
                                                         <a href={game.link}>
                                                                 <img src={game.logo} alt={game.name} />
                                                         </a>
